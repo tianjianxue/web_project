@@ -12,7 +12,7 @@
     margin: 0px auto;
 }
 #content_body_left{
-    font-family: 微软雅黑;
+    font-family:微软雅黑;
     font-size: 14px;
     color: white;
     float: left;
@@ -42,10 +42,13 @@
 	background-color: #BFF2E8;
 	background-position: center top;
 }
-#content_ico{ width: 906px; margin: 50px auto;}
-.ico{ font-size: 12px; font-family: 微软雅黑;  width: 300px; float: left; border: 1px solid red}
-.ico dt{  width: 40px; float: left;}
-.ico dd{ line-height: 18px;}
+#content_ico{ width: 1216px; margin: 150px auto;}
+#content_ico li{  width: 400px; float: left; list-style: none; height: 60px; }
+
+
+#content_ico li dl{ font-size: 12px;font-family: 微软雅黑; height: 60px;  width: 210px; margin: 0px auto;}
+#content_ico li dl dt{  width: 60px; float: left;}
+#content_ico li dl dd{ line-height: 25px;}
 
 .leftline{
 	border-left-width: 2px;
