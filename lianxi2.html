@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <title>Title</title>
 <style type="text/css">
     .topli{
@@ -30,12 +30,30 @@
 }
     .buttomli{}
     li{list-style: none}
+
+li:link {
+	color: #036;
+	text-decoration: none;
+}
+li:visited {
+	text-decoration: none;
+	color: #F00;
+}
+li:hover {
+	text-decoration: none;
+	color: #393;
+    cursor: pointer;
+}
+li:active {
+	text-decoration: none;
+	color: #F0F;
+}
 </style>
 </head>
 <body>
 <ul>
     <li class="topli">商品分类</li>
-    <li class="nomalli">分类一</li>
+    <li class="nomalli"><a href="#1">分类一</a></li>
     <li class="nomalli">分类二</li>
     <li class="nomalli">分类三</li>
     <li class="nomalli">分类四</li>
